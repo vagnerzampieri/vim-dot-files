@@ -15,7 +15,6 @@ Plugin 'moll/vim-node'
 Plugin 'walm/jshint.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'jelera/vim-javascript-syntax'
-Plugin 'davidhalter/jedi-vim'
 
 call vundle#end()
 filetype plugin indent on
