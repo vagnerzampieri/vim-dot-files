@@ -20,3 +20,6 @@ Plugin 'ngmy/vim-rubocop'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+" Auto remove trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e

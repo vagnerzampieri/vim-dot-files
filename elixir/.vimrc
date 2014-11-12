@@ -15,3 +15,6 @@ Plugin 'elixir-lang/vim-elixir'
 
 call vundle#end()
 filetype plugin indent on
+
+" Auto remove trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
