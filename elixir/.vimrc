@@ -11,6 +11,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'ervandew/supertab'
 Plugin 'elixir-lang/vim-elixir'
 
 call vundle#end()
