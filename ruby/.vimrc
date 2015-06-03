@@ -1,3 +1,4 @@
+let mapleader=','
 set number
 set tabstop=2
 set shiftwidth=2
@@ -31,6 +32,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'bling/vim-airline'
 Plugin 'powerline/powerline'
 Plugin 'mileszs/ack.vim'
+Plugin 'wesQ3/vim-windowswap'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
